@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Выкуп</title>  
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="forma.css">
+    <link rel="stylesheet" type="text/css" href="men.css">
+</head>
+<body>
+    <div class="bg">
+        <ul>
+        <a href="Index.html"><li class="li1">Главная</li></a>
+        <a href="Kont.html" target="_blank"><li class="li1">Контакты</li></a>
+        <a href="Vid.html" target="_blank"><li class="li1">Виды работ</li></a>
+        <a href="#" target="_blank"><li class="li1"><strong>Выкуп Вашего авто</strong></li></a>
+        
+        </ul>
+        
+        </div>
+<h1>Заполните форму</h1>
+<div class="forma">
+<form action="mail.php" method="post">
+    <!--Тег используется для группировки связанных элементов в форме-->
+    <fieldset>
+        <!--Тег задает заголовок для групповых элементов-->
+        <legend>Оставьте сообщение:</legend>
+        Ваше имя:
+        <!--Устанавливает однострочное текстовое поле ввода:-->
+        <input type="text" name="name">
+        <!--Используется для полей ввода, которые должны содержать адрес электронной почты.-->
+        E-mail:
+        <input type="text" name="email">
+        Номер телефона:
+        <input type="text" name="phone"><br>
+        Сообщение:<br>
+        
+        <textarea rows="10" cols="45" name="message"></textarea>
+       <br>
+        <input type="submit" value="Отправить сообщение">
+    </fieldset>
+</form>
+</div>
+</body>
+</html>
